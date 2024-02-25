@@ -1,0 +1,7 @@
+{
+  "commands.random.error.no_min_or_max": "Недопустимый диапазон для /random - должно быть как максимальное, так и минимальное значение",
+  "commands.random.roll.a_single": "%1$s выбросил число ",
+  "commands.random.roll.a_multiple": "%1$s выбросил ",
+  "commands.random.roll.b_single": " из диапазона ",
+  "commands.random.roll.b_multiple": " чисел из диапазона "
+}

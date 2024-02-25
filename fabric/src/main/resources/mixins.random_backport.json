@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.thewinnt.randombackport.fabric.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "CommandsMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "mixins.random_backport.refmap.json"
+}

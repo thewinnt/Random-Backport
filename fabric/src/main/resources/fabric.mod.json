@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "random_backport",
+  "version": "${version}",
+
+  "name": "/random Backport",
+  "description": "Backports the /random command to 1.20.1",
+  "authors": [],
+  "contact": {},
+
+  "license": "MIT",
+  "icon": "icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.thewinnt.randombackport.fabric.RandomBackportFabric"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "mixins.random_backport.json",
+      "environment": "*"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": ">=1.20.1"
+  }
+}

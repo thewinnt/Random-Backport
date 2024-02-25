@@ -1,0 +1,8 @@
+{
+  "commands.random.error.no_min_or_max": "Invalid range for /random - both min and max must be present",
+  "commands.random.error.max_less_than_min": "Invalid range for /random - max must be larger than min",
+  "commands.random.roll.a_single": "%1$s rolled ",
+  "commands.random.roll.a_multiple": "%1$s rolled ",
+  "commands.random.roll.b_single": " from range ",
+  "commands.random.roll.b_multiple": " numbers from range "
+}
